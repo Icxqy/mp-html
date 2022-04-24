@@ -29,13 +29,17 @@ module.exports = {
    * 每个标签为一个 object，包含 name（标签名，必要）、attrs（属性列表，非必要）、platforms（需要添加的平台，非必要）
    */
   customElements: [
-    /*
+    
     // 需要使用广告标签则打开此注释
     {
-      name: 'ad',
-      attrs: ['unit-id']
-    }
-    */
+      name: 'submain_right_list_first',
+    },
+    {
+      name: 'submain_right_list_second',
+    },
+    {
+      name: 'submain_right_list_third',
+    },
   ],
 
   /**
